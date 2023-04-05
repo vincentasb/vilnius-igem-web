@@ -14,7 +14,7 @@
 }
 .pavadinimas{
     display: inline-block;
-    font-family: Montserrat;
+    font-family: 'League Spartan', sans-serif;
     font-weight: 900;
     color: white;
     vertical-align: middle;
@@ -28,7 +28,7 @@ margin: 0;
 .meniu{
     display: grid;
     grid-template-columns: 100px 100px;
-    font-family: Montserrat;
+    font-family: 'League Spartan', sans-serif;
     font-weight: 600;
 }
 .menua{
