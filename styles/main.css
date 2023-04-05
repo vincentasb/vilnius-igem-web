@@ -1,0 +1,72 @@
+.headeris{
+    display: grid;
+    grid-template-columns: 250px 1fr 200px;
+    padding: 25px;
+    height: 10%;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+.logo{
+    width: 50px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.pavadinimas{
+    display: inline-block;
+    font-family: Montserrat;
+    font-weight: 900;
+    color: white;
+    vertical-align: middle;
+}
+.pavadinimas1{
+margin: 0;
+}
+.pavadinimas2{
+margin: 0;
+}
+.meniu{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    font-family: Montserrat;
+    font-weight: 600;
+}
+.menua{
+    text-decoration: none;
+}
+.menua:visited{
+    text-decoration: none;
+    color: white;
+}
+.landingpage {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    vertical-align: middle;
+}
+.landingpage video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  z-index: -1;
+  filter: blur(15px);
+}
+body{
+    margin: 0;
+}
+.maintitle{
+    font-family: Montserrat;
+    font-weight: 900;
+    color: white;
+    font-size: 7vw;
+    padding-left: 25px;
+    display: inline-block;
+    align-self: center;
+}
+.projektai{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(12, 0, 32);
+    overflow: hidden;
+}
