@@ -4,6 +4,7 @@
     height: 100vh;
     width: 100%;
     vertical-align: middle;
+    overflow: hidden;
 }
 .landingpage video {
   width: 100%;
@@ -12,10 +13,10 @@
   object-fit: cover;
   z-index: -1;
   filter: blur(15px);
+  scale: 1.1;
 }
 body{
     margin: 0;
-    background-color: rgb(1, 5, 23);
 }
 .maintitle{
     font-family: 'League Spartan', sans-serif;
