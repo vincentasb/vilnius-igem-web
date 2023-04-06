@@ -1,5 +1,6 @@
 body{
     background-color: rgb(1, 5, 23);
+    margin: 0;
 }
 .content{
     height: 200vh;
