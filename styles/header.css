@@ -2,13 +2,15 @@
     display: grid;
     grid-template-columns: 250px 1fr 250px;
     padding: 25px;
+    padding-left: 0;
     height: 10%;
     position: fixed;
     z-index: 1000;
     width: 100%;
+    margin-left: 2.5vw;
 }
 .logo{
-    width: 50px;
+    width: 70px;
     display: inline-block;
     vertical-align: middle;
 }
@@ -18,24 +20,11 @@
     font-weight: 900;
     color: white;
     vertical-align: middle;
+    font-size: 22px;
 }
 .pavadinimas1{
 margin: 0;
 }
 .pavadinimas2{
 margin: 0;
-}
-.meniu{
-    display: grid;
-    grid-template-columns: 100px 100px;
-    font-family: 'League Spartan', sans-serif;
-    font-weight: 600;
-}
-.menua{
-    text-decoration: none;
-    color: white;
-}
-.menua:visited{
-    text-decoration: none;
-    color: white;
 }
