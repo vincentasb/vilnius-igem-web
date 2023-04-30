@@ -11,7 +11,9 @@
     <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link href="styles\main.css" rel="stylesheet">
     <link rel="stylesheet" href="\styles\header.css">
+    <link rel="stylesheet" href="\styles\footer.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   </head>
   <body>
     <div class="headeris">
@@ -23,21 +25,20 @@
             </div>
         </div>
         <div></div>
+        <div class="meniu">
+            <a href="/main.html" class="menua">Pradinis</a>
+            <a href="pages\SBO.html" class="menua">SBO</a>
+            <a href="pages\remejai.html" class="menua">Remėjai</a>
+            <a href="pages\igem.html" class="menua">iGEM</a>
+            <a href="pages\komandos.html"class="menua">Komandos</a>
+            <a href="pages\kontaktai.html" class="menua">Kontaktai</a>
+        </div>
     </div>
     <div class="landingpage">
         <video autoplay muted loop>
             <source src="videos\landingpagebck.mp4" type="video/mp4" />
         </video>
-        <div class="menu">
-            <div class="meniu">
-                <a href="/main.html" class="menua">Pradinis</a>
-                <a href="pages\SBO.html" class="menua">SBO</a>
-                <a href="pages\remejai.html" class="menua">Remėjai</a>
-                <a href="pages\igem.html" class="menua">iGEM</a>
-                <a href="pages\komandos.html"class="menua">Komandos</a>
-                <a href="pages\kontaktai.html" class="menua">Kontaktai</a>
-            </div>
-        </div>
+
         <div class="maintitle">
             <div>
                 Mes esame
@@ -49,18 +50,28 @@
                 iGEM komanda
             </div>
         </div>
-        <div class="projects-button">
+        <div class="projects-button" id="something">
             Kas yra iGEM?
+            <img src="img\white-down-arrow-png-2.png" class="projects-button-arrow">
         </div>
         
     </div> 
-    <div class="projektai">
+    <div class="projektai" id="elementtoScrollToID">
         <div class="background-projektai">
             <div id="blob"></div>
             <div id="blur"></div>
         </div>
         <div class="mask"></div>
+        <div class="igem-card">
+            <img src="img\igem-logo-light.svg" class="igem-logo">
+            <div class="igem-description">
+                iGEM – prestižinis, didžiausias pasaulyje sintetinės biologijos konkursas, suburiantis daugiau nei 350 komandų, kurios rengia inovatyvius, praktikoje pritaikomus sintetinės biologijos projektus, prisidedančius prie aktualių pramonės, aplinkosaugos, medicinos ir kitų sričių problemų sprendimo. Šiame konkurse iš Vilniaus universiteto studentų sudaryta Vilnius-Lithuania iGEM komanda varžosi su geriausių pasaulio universitetų, tokių kaip Oksfordas, Harvardas, Edinburgas, studentų komandomis.
+            </div>
+        </div>
     </div>   
+    <div class="footer">
+        <img src="img\igem-logo-text.avif" class="footer-igem-logo">
+    </div>
     <script src="main.js" async defer></script>
   </body>
 </html>
