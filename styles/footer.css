@@ -1,0 +1,8 @@
+.footer{
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.footer-igem-logo{
+width: 5vw;
+}

@@ -8,3 +8,11 @@ window.onpointermove = event => {
     top: `${clientY}px`
   }, { duration: 3000, fill: "forwards" });
 }
+
+var something = document.getElementById('something');
+something.style.cursor = 'pointer';
+something.onclick = function() {
+  $([document.documentElement, document.body]).animate({
+    scrollTop: $("#elementtoScrollToID").offset().top
+}, 500);
+};
